@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #042c54;
+  padding: 2rem;
+  margin-top: -0.5rem;
+  font-weight: 800;
+  color: #f2d03b;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 35rem;
+  color: #042c54;
+}
+
+.data-item {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.dp {
+  height: auto;
+  width: 16rem;
+  background-size: cover;
+  border-radius: 0.5rem;
+}

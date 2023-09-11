@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1: Personal Data</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <header>Data Showcase</header>
+    <div class="container">
+      <div class="data-item" data-testid="slackUserName">
+        <label for="display-name">Slack Name</label>
+        <div>DevMax</div>
+      </div>
+      <img
+        class="dp"
+        src="twt.jpg"
+        alt="DevMax"
+        data-testid="slackDisplayImage"
+      />
+      <div class="data-item" data-testid="currentDayOfTheWeek">
+        <label for="display-name">Day</label>
+        <div id="today"></div>
+      </div>
+      <div class="data-item" data-testid="currentUTCTime">
+        <label for="display-name">UTC Time</label>
+        <div id="UTC"></div>
+      </div>
+      <div class="data-item" data-testid="myTrack">
+        <label for="display-name">Track</label>
+        <div>Frontend Track</div>
+      </div>
+      <a data-testid="githubURL" href="https://github.com/Maxohayce/HNGStage1"
+        >Github Repo</a
+      >
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
